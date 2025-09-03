@@ -151,7 +151,6 @@ def is_admin(user_id: int) -> bool:
     return is_admin_user
 
 def create_main_keyboard(is_admin_user=False):
-    """Create the quick reply keyboard"""
     markup = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     
     if is_admin_user:
@@ -182,7 +181,7 @@ def start(message):
             f"Hi Admin {message.from_user.first_name}! 👋\n\n"
             f"Welcome to {CHANNEL_INFO['name']} Admin Panel!\n\n"
             "You can view and answer user questions from here.",
-            reply_markup=create_main_keyboard(is_admin=True)
+            reply_markup=create_main_keyboard(is_admin_user=True)
         )
     else:
         # User menu with quick replies
@@ -476,3 +475,4 @@ if __name__ == '__main__':
     print("Bot is running...")
     print(f"Admin IDs configured: {ADMIN_IDS}")
     bot.infinity_polling()
+
