@@ -1,2 +1,10 @@
 ## MEMO_Bot
-THis bot is developed for my channel members to connect with me in direct questions and also to get resources in simple from this bot
+
+Simple answers. Instant resources. Direct connection.
+
+What is it?
+MEMO_Bot helps channel members:
+
+💬 Ask me questions directly
+
+📚 Get resources instantly & simply
