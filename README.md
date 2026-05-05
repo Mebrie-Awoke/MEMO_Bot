@@ -1,5 +1,4 @@
 ## MEMO_Bot
-
 Simple answers. Instant resources. Direct connection.
 
 What is it?
